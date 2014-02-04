@@ -4,10 +4,42 @@
 	padding: 0;
 }
 
+
+
+body
+{
+	margin: 0;
+}
+header 
+{
+	background: #434343;
+	margin: 0 auto;
+	text-align: left;
+	color: white;
+	width: 90%;
+	padding: 2em;
+	box-sizing:border-box;
+}
+
+h1
+{
+	margin: 0;
+	font-size: 25px ;
+	color: white;
+	border:1px solid yellow;
+	font-family: 'PT Sans', sans-serif;
+}
 .contenedor
 {
 	width: 90%;
 	text-align: center;
 	border: 1px solid gray;
 	margin: 0 auto;
+	padding: 0;
+}
+
+
+.iblock
+{
+	display: inline-block;
 }
