@@ -12,23 +12,56 @@ body
 }
 header 
 {
-	background: #434343;
+	background: #109CD5;
 	margin: 0 auto;
 	text-align: left;
 	color: white;
 	width: 90%;
-	padding: 2em;
+	padding: 0;
 	box-sizing:border-box;
+	border:1px solid gray;
 }
 
 h1
 {
 	margin: 0;
-	font-size: 25px ;
+	font-size: 26px ;
 	color: white;
 	border:1px solid yellow;
 	font-family: 'PT Sans', sans-serif;
+	padding: 1em;
+	box-sizing:border-box;
 }
+
+nav
+{
+	background: #FFFFFF;
+	width: 100%;
+	padding: 0;
+	border: 1px solid green;
+}
+
+nav ul 
+{
+	padding: 0;
+	margin: 0;
+}
+ nav ul li
+ {
+ 	padding: 0;
+ 	border: 1px solid red;
+ 	margin: 0;
+ 	padding: 0.5em 1em;
+ }
+
+ nav ul li a
+ {
+ 	text-decoration: none;
+ 	color: #222222;
+
+ }
+
+
 .contenedor
 {
 	width: 90%;
@@ -36,8 +69,16 @@ h1
 	border: 1px solid gray;
 	margin: 0 auto;
 	padding: 0;
+	box-sizing:border-box;
 }
 
+.contenedor2
+{
+	border: 1px solid #222222;
+	width: 90%;
+	margin:0 auto;
+	box-sizing:border-box;
+}
 
 .iblock
 {
