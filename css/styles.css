@@ -38,7 +38,7 @@ h1
 input,textarea
 {
 	display: block;
-	background: orange;
+	background: #FBFBFB;
 	color: white;
 	max-width: 300px;
 	width: 100%;
@@ -93,6 +93,15 @@ nav ul
  {
  	border: 1px solid green;
  	max-width: 150px:;
+ }
+
+ form
+ {
+ 	background: #192033;
+ 	box-sizing:border-box;
+ 	padding:0.5em;
+ 	width: 90%;
+ 	margin: 0 auto;
  }
 
 footer
