@@ -4,7 +4,10 @@
 	padding: 0;
 }
 
-
+html
+{
+	background: #FBFBFB;
+}
 
 body
 {
@@ -32,7 +35,32 @@ h1
 	padding: 1em;
 	box-sizing:border-box;
 }
+input,textarea
+{
+	display: block;
+	background: orange;
+	color: white;
+	max-width: 300px;
+	width: 100%;
+	margin: 0.5em auto ;
+	box-sizing:border-box;
+	padding: 0.5em;
+	border-radius: 5px;
+}
 
+
+button[type="submit"]
+{
+	display: block;
+	background: #C34614;
+	color: white;
+	max-width: 300px;
+	width: 100%;
+	margin: 0.5em auto ;
+	box-sizing:border-box;
+	padding: 0.5em;
+	border-radius: 5px;
+}
 nav
 {
 	background: #FFFFFF;
@@ -64,6 +92,7 @@ nav ul
  figure
  {
  	border: 1px solid green;
+ 	max-width: 150px:;
  }
 
 footer
@@ -73,6 +102,7 @@ footer
 
 h2
 {
+	display: block;
 	border:1px solid red;
 }
 
@@ -87,6 +117,24 @@ aside{clear: both;}
 	box-sizing:border-box;
 }
 
+#ultimos-publicados-item
+{
+	
+	width: 90%;
+	margin: 1em auto;
+	box-sizing:border-box;
+	background: #303030;
+	color: white;
+	padding: 0.5em;
+
+}
+
+#hotcars article
+{
+	border-bottom:1px solid blue;
+	clear: both;
+
+}
 .contenedor2
 {
 	border: 1px solid #222222;
@@ -112,26 +160,8 @@ aside{clear: both;}
 
 .imgsmall
 {
-	max-width: 150px;
+	max-width: 250px;
 	width: 100%;
 
 }
 
-#ultimos-publicados-item
-{
-	
-	width: 90%;
-	margin: 1em auto;
-	box-sizing:border-box;
-	background: #303030;
-	color: white;
-	padding: 0.5em;
-
-}
-
-#hotcars article
-{
-	border-bottom:1px solid blue;
-	clear: both;
-
-}
