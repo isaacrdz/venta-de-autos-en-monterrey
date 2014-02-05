@@ -61,7 +61,22 @@ nav ul
 
  }
 
+ figure
+ {
+ 	border: 1px solid green;
+ }
 
+footer
+{
+	clear: both;
+}
+
+h2
+{
+	border:1px solid red;
+}
+
+aside{clear: both;}
 .contenedor
 {
 	width: 90%;
@@ -83,4 +98,40 @@ nav ul
 .iblock
 {
 	display: inline-block;
+}
+
+
+.fleft
+{
+	float: left;
+}
+.fright
+{
+	float: right;
+}
+
+.imgsmall
+{
+	max-width: 150px;
+	width: 100%;
+
+}
+
+#ultimos-publicados-item
+{
+	
+	width: 90%;
+	margin: 1em auto;
+	box-sizing:border-box;
+	background: #303030;
+	color: white;
+	padding: 0.5em;
+
+}
+
+#hotcars article
+{
+	border-bottom:1px solid blue;
+	clear: both;
+
 }
