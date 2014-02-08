@@ -1,0 +1,67 @@
+
+@media screen and (min-width:780px){
+
+body
+{
+	background: blue;
+}
+nav
+{
+	background: #FFFFFF;	
+	padding: 0;
+	border: 1px solid green;
+
+
+}
+
+nav ul 
+{
+	padding: 0;
+	margin: 0;
+
+}
+nav ul li
+{
+	display: inline-block;
+}
+
+
+section#contenido-item
+{
+	width: 50%;
+	background: red;
+	display: inline-block;
+}
+
+
+aside
+{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+article.contenedor2 ul li figure  
+{
+	width: 70px;
+}
+
+article.contenedor2 ul li figure img 
+{
+	width: 70px;
+	display: inline-block;
+}
+
+article.contenedor2 ul li 
+{
+	
+	display: inline-block;
+	margin: 1em;
+}
+
+.iblock
+{
+	display: inline-block;
+}
+
+
+}

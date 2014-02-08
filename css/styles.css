@@ -63,37 +63,27 @@ button[type="submit"]
 }
 nav
 {
-	background: #FFFFFF;
-	width: 100%;
+	background: #FFFFFF;	
 	padding: 0;
 	border: 1px solid green;
+	text-align: center;
+
+
 }
 
 nav ul 
 {
 	padding: 0;
 	margin: 0;
+
 }
  nav ul li
  {
- 	padding: 0;
- 	border: 1px solid red;
- 	margin: 0;
- 	padding: 0.5em 1em;
+ 
  }
 
- nav ul li a
- {
- 	text-decoration: none;
- 	color: #222222;
+ 
 
- }
-
- nav figure
- {
- 	border: 1px solid green;
- 	max-width: 150px:;
- }
 
  form
  {
@@ -127,8 +117,13 @@ h2
 	border:1px solid red;
 }
 
-aside{clear: both;}
-.contenedor
+aside
+{
+	clear: both;
+}
+
+
+.contenedor-principal
 {
 	width: 90%;
 	text-align: center;
