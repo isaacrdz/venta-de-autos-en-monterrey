@@ -6,7 +6,7 @@
 
 html
 {
-	background: #FBFBFB;
+	background: #EDEDED;
 }
 
 body
@@ -89,7 +89,7 @@ nav ul
 
  }
 
- figure
+ nav figure
  {
  	border: 1px solid green;
  	max-width: 150px:;
@@ -107,7 +107,19 @@ nav ul
 footer
 {
 	clear: both;
+	background: #303030;
+	padding: 1em;
+	box-sizing:border-box;
+
 }
+
+footer a
+{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
 
 h2
 {
@@ -124,6 +136,7 @@ aside{clear: both;}
 	margin: 0 auto;
 	padding: 0;
 	box-sizing:border-box;
+	background: white;
 }
 
 #ultimos-publicados-item
@@ -150,11 +163,25 @@ aside{clear: both;}
 	width: 90%;
 	margin:0 auto;
 	box-sizing:border-box;
+	background: white;
+}
+
+.contenedor2 ul li figure
+{
+	border:1px solid orange;
+	max-width: 300px;
+	margin: 0 auto;
+	
+}
+.contenedor2 ul li figure img
+{
+	max-width: 250px;
+	width: 100%;
 }
 
 .iblock
 {
-	display: inline-block;
+	display: block;
 }
 
 
