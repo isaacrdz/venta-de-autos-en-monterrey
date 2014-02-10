@@ -39,11 +39,30 @@ aside
 	width: 30%;
 	display: inline-block;
 	vertical-align: top;
+
 }
-article.contenedor2 ul li figure  
+article.contenedor-autos ul li figure  
 {
-	width: 70px;
+	max-width: 150px;
+	width: 100%;
+	
 }
+
+article.contenedor-autos ul li figure img 
+{
+	max-width: 300px;
+	width: 100%;
+	display: inline-block;
+}
+
+article.contenedor-autos ul li 
+{
+	
+	display: inline-block;
+	margin: 1em;
+}
+
+
 
 article.contenedor2 ul li figure img 
 {

@@ -104,7 +104,7 @@ nav ul
  	box-sizing:border-box;
  	padding:0.5em;
  	width: 100%;
- 	margin: 0 auto;
+ 	margin: 0 auto;conten
  }
 
 footer
@@ -239,6 +239,33 @@ aside article
 	font-size: 20px;
 }
 
+.contenedor-autos
+{
+	border: 1px solid #222222;
+	width: 90%;
+	margin:0 auto;
+	box-sizing:border-box;
+	background: white;
+}
+
+.contenedor-autos ul li 
+{
+	list-style: none;
+	
+}
+
+.contenedor-autos ul li figure
+{
+	border:1px solid orange;
+	max-width: 300px;
+	margin: 0 auto;
+	
+}
+.contenedor-autos ul li figure img
+{
+	max-width: 250px;
+	width: 100%;
+}
 
 
 
