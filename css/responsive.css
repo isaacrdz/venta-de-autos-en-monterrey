@@ -3,7 +3,7 @@
 
 body
 {
-	background: blue;
+	background: #E5E5E5;
 }
 nav
 {
@@ -28,7 +28,7 @@ nav ul li
 
 section#contenido-item
 {
-	width: 50%;
+	width: 68%;
 	background: red;
 	display: inline-block;
 }
@@ -36,7 +36,7 @@ section#contenido-item
 
 aside
 {
-	width: 40%;
+	width: 30%;
 	display: inline-block;
 	vertical-align: top;
 }

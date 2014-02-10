@@ -6,10 +6,17 @@
 		  content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta name="description" content="Ventas de Autos en Monterrey nos dedicamos a la venta de autos nuevos y seminuevos en Monterrey y su area metropolitana. Llámanos 0448112122412">
 <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-
-
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/styles.css">
+<!--links nivo-->
+<link rel="stylesheet" href="js/slider-nivo/themes/default/default.css" type="text/css" media="screen" />
+ <link rel="stylesheet" href="js/slider-nivo/themes/light/light.css" type="text/css" media="screen" />
+ <link rel="stylesheet" href="js/slider-nivo/themes/dark/dark.css" type="text/css" media="screen" />
+ <link rel="stylesheet" href="js/slider-nivo/themes/bar/bar.css" type="text/css" media="screen" />
+ <link rel="stylesheet" href="js/slider-nivo/css/nivo-slider.css" type="text/css" media="screen" />
+ 
+
+<!--terminan links nivo -->
 <title>VENTA DE AUTOS EN MONTERREY</title>
 </head>
 <body>
@@ -28,9 +35,29 @@
 </header>
 <section class="contenedor-principal">
 
+<section id="slider-nivo">
 
+<article>
+	
+	
+	<div class=" theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="img/corvette.jpg" data-thumb="img/corvette.jpg" alt="" />
+                <a href="#"><img src="img/corvette2.jpg" data-thumb="img/corvette2.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="img/corvette.jpg" data-thumb="img/corvette.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/corvette.jpg" data-thumb="img/corvette.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+</article>
+
+</section>
 <section id="contenido-item" > 
+
 <h2>Autos</h2>
+
 
 
 
@@ -95,33 +122,55 @@
 </article>
 	
 
-<div id="ultimos-publicados-item">Ultimos Publicados</div>
+<div id="ultimos-publicados-item">ULTIMO PUBLICADOS</div>
+
+
 <section id="hotcars" class="contenedor">
 
+<article >
+	
 
-<article>	
-	<figure class="">
-		<img class="imgsmall" src="img/auto.jpg" alt="foto auto">
-	</figure>
-		<h2 class="">Chevrolet Esteem Modelo 1998</h2>
-		<p class="">Excelente estado del vehículo!! peugeot 206 modelo 2004, excelente estado, 5 puertas, película de seguridad, rines de lujo, gua...</p>
-		<p>$ 13.500.000</p>
+<figure>
+	<img src="img/auto.jpg" alt="">
+</figure>
+
+<article>
+	
+<h2>Grand Cherokke</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, .</p>
+<span>$ 4.500.000</span>
 </article>
 
-<article>	
-	<figure class="">
-		<img class="imgsmall" src="img/auto.jpg" alt="foto auto">
-	</figure>
-		<h2 class="">Chevrolet Esteem Modelo 1998</h2>
-		<p class="">Excelente estado del vehículo!! peugeot 206 modelo 2004, excelente estado, 5 puertas, película de seguridad, rines de lujo</p>
 </article>
 
+</section>
+<section id="hotcars" class="contenedor">
 
+<article >
+	
+
+<figure>
+	<img src="img/auto.jpg" alt="">
+</figure>
+
+<article>
+	
+<h2>Grand Cherokke</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, .</p>
+<span>$ 4.500.000</span>
+</article>
+
+</article>
 
 </section>
 </section>
 
 <aside>
+
+<article>
+<h2>Solicita información</h2>
+	
+
 	<form action="">
 		
 	<input type="text" placeholder="Ingresa tu nombre"/>
@@ -131,6 +180,7 @@
 <button type="submit"> Enviar</button>
 
 	</form>
+</article>
 </aside>
 </section>
 
@@ -151,6 +201,13 @@
 
 </script>
 </section>
+   <script type="text/javascript" src="js/slider-nivo/js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/slider-nivo/js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 </body>
 </html>
 

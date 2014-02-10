@@ -6,16 +6,18 @@
 
 html
 {
-	background: #EDEDED;
+	background: white;
 }
 
 body
 {
 	margin: 0;
 }
+
+
 header 
 {
-	background: #109CD5;
+	background: #2691BD;
 	margin: 0 auto;
 	text-align: left;
 	color: white;
@@ -24,6 +26,15 @@ header
 	box-sizing:border-box;
 	border:1px solid gray;
 }
+
+section#slider-nivo
+{
+	margin: 0 auto;
+	border: 3px solid yellow;
+	text-align: center;
+	background: white;
+}
+
 
 h1
 {
@@ -52,14 +63,16 @@ input,textarea
 button[type="submit"]
 {
 	display: block;
-	background: #C34614;
+	background: #F8BD0C;
 	color: white;
 	max-width: 300px;
 	width: 100%;
 	margin: 0.5em auto ;
 	box-sizing:border-box;
+	font-size: 18px;
 	padding: 0.5em;
 	border-radius: 5px;
+	border-bottom: 2px solid #F19700;
 }
 nav
 {
@@ -87,10 +100,10 @@ nav ul
 
  form
  {
- 	background: #192033;
+ 	background: #146484;
  	box-sizing:border-box;
  	padding:0.5em;
- 	width: 90%;
+ 	width: 100%;
  	margin: 0 auto;
  }
 
@@ -100,6 +113,7 @@ footer
 	background: #303030;
 	padding: 1em;
 	box-sizing:border-box;
+	text-align: center;
 
 }
 
@@ -111,17 +125,24 @@ footer a
 }
 
 
-h2
-{
-	display: block;
-	border:1px solid red;
-}
+
 
 aside
 {
 	clear: both;
+	background: magenta;
+	padding: 0;
 }
-
+aside article  h2
+{
+	border-bottom: 1px solid gray;
+}
+aside article
+{
+	background: red;
+	padding: 1em;
+	box-sizing:border-box;
+}
 
 .contenedor-principal
 {
@@ -143,15 +164,92 @@ aside
 	background: #303030;
 	color: white;
 	padding: 0.5em;
+	font-size: 25px;
+	text-align: left;
 
 }
 
-#hotcars article
+#hotcars
 {
-	border-bottom:1px solid blue;
-	clear: both;
+	border: 1px solid black;
+	background: gray;
+	padding: 1em;
+	margin-bottom: 1em;
+	width: 90%;
+	box-sizing:border-box;
+	margin:1em auto 1em auto;
+
+	
+}
+
+#hotcars article 
+{
+	padding: 0;
+	margin: 0;
+}
+#hotcars article figure 
+{
+	display: inline-block;
+	float: left;
+	border: 1px solid yellow;	
+	margin: 0.5em 0 0 0;
+	
+	
 
 }
+
+#hotcars figure img
+{
+	max-width: 130px;
+	width: 100%;
+	border: 1px solid red;
+	margin: 0;
+	
+}
+
+#hotcars article article
+{
+	border: 1px solid green;
+	display: inline-block;
+	margin:0.5em 0 0 0;
+	max-width: 250px;
+	text-align: left;
+	vertical-align: top;
+	width: 100%;
+
+}
+
+#hotcars article article h2
+{
+	padding: 0;
+	margin: 0;
+}
+
+#hotcars article article p
+{
+	padding: 0;
+	margin: 0;
+}
+
+#hotcars article article span
+{
+	padding: 0;
+	margin: 0;
+	border: 1px solid yellow;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .contenedor2
 {
 	border: 1px solid #222222;
@@ -159,6 +257,12 @@ aside
 	margin:0 auto;
 	box-sizing:border-box;
 	background: white;
+}
+
+.contenedor2 ul li 
+{
+	list-style: none;
+	
 }
 
 .contenedor2 ul li figure
@@ -191,8 +295,7 @@ aside
 
 .imgsmall
 {
-	max-width: 250px;
+	max-width: 150px;
 	width: 100%;
 
 }
-
