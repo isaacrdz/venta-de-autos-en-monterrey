@@ -35,11 +35,9 @@ section#slider-nivo
 	background: white;
 }
 
-section#contenido-item figure img
+section#contenido-item .contenedor2 ul li figure img
 {
-	max-width: 1200px;
-	width: 100%;
-	border: 1px solid blue;
+
 }
 
 h1
@@ -245,7 +243,7 @@ aside article
 	font-size: 20px;
 }
 
-.contenedor-autos
+article.contenedor-autos
 {
 	border: 1px solid #222222;
 	width: 90%;
@@ -254,22 +252,36 @@ aside article
 	background: white;
 }
 
-.contenedor-autos ul li 
+article.contenedor-autos ul li 
 {
 	list-style: none;
 	
 }
 
-.contenedor-autos ul li figure
+article.contenedor-autos ul li figure
 {
 	border:1px solid orange;
 	max-width: 300px;
 	margin: 0 auto;
 	
 }
-.contenedor-autos ul li figure img
+article.contenedor-autos ul li figure img
 {
 	max-width: 250px;
+	width: 100%;
+}
+
+
+
+
+#contenido-item .contenedor2 ul
+{
+	list-style-type: none;
+}
+
+#contenido-item .contenedor2 ul li figure img
+{
+	max-width: 100px;
 	width: 100%;
 }
 
@@ -279,37 +291,6 @@ aside article
 
 
 
-
-
-
-
-.contenedor2
-{
-	border: 1px solid #222222;
-	width: 90%;
-	margin:0 auto;
-	box-sizing:border-box;
-	background: white;
-}
-
-.contenedor2 ul li 
-{
-	list-style: none;
-	
-}
-
-.contenedor2 ul li figure
-{
-	border:1px solid orange;
-	max-width: 300px;
-	margin: 0 auto;
-	
-}
-.contenedor2 ul li figure img
-{
-	max-width: 250px;
-	width: 100%;
-}
 
 .iblock
 {

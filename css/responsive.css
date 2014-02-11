@@ -57,27 +57,37 @@ article.contenedor-autos ul li figure img
 	display: inline-block;
 }
 
+article.contenedor-autos 
+{
+	border: 2px solid black;
+}
+
 article.contenedor-autos ul li 
 {
 	
 	display: inline-block;
 	margin: 1em;
 }
-
-
-
-article.contenedor2 ul li figure img 
+#contenido-item .contenedor2 ul
 {
-	width: 70px;
 	display: inline-block;
 }
 
-article.contenedor2 ul li 
+#contenido-item .contenedor2 ul li
 {
-	
 	display: inline-block;
-	margin: 1em;
 }
+
+#contenido-item .contenedor2 ul li figure img
+{
+	max-width: 100px;
+	width: 100%;
+	border: 1px solid yellow;
+}
+
+
+
+
 
 .iblock
 {
