@@ -35,6 +35,12 @@ section#slider-nivo
 	background: white;
 }
 
+section#contenido-item figure img
+{
+	max-width: 1200px;
+	width: 100%;
+	border: 1px solid blue;
+}
 
 h1
 {
