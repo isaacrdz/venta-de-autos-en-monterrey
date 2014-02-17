@@ -12,6 +12,7 @@ html
 body
 {
 	margin: 0;
+	font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -24,24 +25,26 @@ header
 	width: 90%;
 	padding: 0;
 	box-sizing:border-box;
-	border:1px solid gray;
+	border:1px solid lightgray;
 }
 
 section#slider-nivo
 {
-	margin: 0 auto;
-	border: 3px solid yellow;
+	margin: 0.5em auto;
+	border: none;
 	text-align: center;
 	background: white;
+	width: 90%;
 }
 
-section#contenido-item .contenedor2 ul li figure img
+.fleft
 {
-
+	float: left;
 }
 
 h1
 {
+	
 	margin: 0;
 	font-size: 26px ;
 	color: white;
@@ -54,12 +57,12 @@ input,textarea
 {
 	display: block;
 	background: #FBFBFB;
-	color: white;
-	max-width: 300px;
+	color: #303030;
+	max-width: 500px;
 	width: 100%;
 	margin: 0.5em auto ;
 	box-sizing:border-box;
-	padding: 0.5em;
+	padding: 1em;
 	border-radius: 5px;
 }
 
@@ -69,12 +72,12 @@ button[type="submit"]
 	display: block;
 	background: #F8BD0C;
 	color: white;
-	max-width: 300px;
+	max-width: 500px;
 	width: 100%;
 	margin: 0.5em auto ;
 	box-sizing:border-box;
 	font-size: 18px;
-	padding: 0.5em;
+	padding: 1em;
 	border-radius: 5px;
 	border-bottom: 2px solid #F19700;
 }
@@ -82,7 +85,7 @@ nav
 {
 	background: #FFFFFF;	
 	padding: 0;
-	border: 1px solid green;
+	border: none;
 	text-align: center;
 
 
@@ -119,7 +122,9 @@ footer
 	box-sizing:border-box;
 	text-align: center;
 
+
 }
+
 
 footer a
 {
@@ -128,31 +133,51 @@ footer a
 	color: white;
 }
 
+#cuadro-marcas
+{
+	border: 1px solid lightgray;
+	width: 90%;
+	margin: 0 auto;
+	
 
+}
+
+.banner
+{
+	max-width: 700px;
+	width: 100%;
+	margin: 0;
+}
 
 
 aside
 {
+	margin-top: 0.5em;
 	clear: both;
-	background: magenta;
+	background: none;
 	padding: 0;
+	border: 1px solid lightgray;
+	clear: both;
 }
 aside article  h2
 {
-	border-bottom: 1px solid gray;
+	border-bottom: none;
+	margin: 0 0 0.5em 0;
 }
 aside article
 {
-	background: red;
+	background: none;
 	padding: 1em;
 	box-sizing:border-box;
 }
+
+
 
 .contenedor-principal
 {
 	width: 90%;
 	text-align: center;
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 	margin: 0 auto;
 	padding: 0;
 	box-sizing:border-box;
@@ -175,8 +200,8 @@ aside article
 
 #hotcars
 {
-	border: 1px solid black;
-	background: gray;
+	border-bottom: 1px solid lightgray;
+	background: white;
 	padding: 1em;
 	margin-bottom: 1em;
 	width: 90%;
@@ -184,6 +209,21 @@ aside article
 	margin:1em auto 1em auto;
 
 	
+}
+
+.darkbg
+{
+	background: #303030;
+	color: white;
+	padding: 0.5em 0.5em;
+	font-weight: normal;
+	text-align: left;
+}
+
+#hotcars:hover
+{
+	background: #FBFBE3;
+	color: red;
 }
 
 #hotcars article 
@@ -195,7 +235,7 @@ aside article
 {
 	display: inline-block;
 	float: left;
-	border: 1px solid yellow;	
+	border:none;	
 	margin: 0.5em 0 0 0;
 	
 	
@@ -204,68 +244,92 @@ aside article
 
 #hotcars figure img
 {
-	max-width: 130px;
+	max-width: 150px;
 	width: 100%;
-	border: 1px solid red;
+	border: none;
 	margin: 0;
 	
 }
 
-#hotcars article article
-{
-	border: 1px solid green;
-	display: inline-block;
-	margin:0.5em 0 0 0;
-	max-width: 250px;
-	text-align: left;
-	vertical-align: top;
-	width: 100%;
 
-}
 
 #hotcars article article h2
 {
 	padding: 0;
 	margin: 0;
+	color: #155581;
+}
+
+#hotcars #hotcars-item article p
+{
+	
+	display: block;
+	width: 100%;
+}
+#contenido-item section article figure img
+{
+	max-width: 780px;
+	width: 100%;
+}
+
+#contenido-item section article p
+{
+	
+	margin: 1em;
+}
+
+aside #datos-auto  ul
+{
+
+}
+
+aside #datos-auto  ul li
+{
+	list-style: none;
+	border:1px solid #cccccc;
+	font-size: 25px;
+	padding:0.5em 0;
+	box-sizing:border-box;
+	background: #F1F1F1;
 }
 
 #hotcars article article p
 {
 	padding: 0;
 	margin: 0;
+	color: #53565B;
 }
 
 #hotcars article article span
 {
 	padding: 0;
 	margin: 0;
-	border: 1px solid yellow;
+	border: none;
 	font-size: 20px;
 }
 
-article.contenedor-autos
+.contenedor-autos
 {
-	border: 1px solid #222222;
 	width: 90%;
 	margin:0 auto;
 	box-sizing:border-box;
 	background: white;
 }
 
-article.contenedor-autos ul li 
+.contenedor-autos ul li 
 {
 	list-style: none;
 	
 }
 
-article.contenedor-autos ul li figure
+.contenedor-autos ul li figure
 {
-	border:1px solid orange;
+	
 	max-width: 300px;
-	margin: 0 auto;
+	margin: 0.5em auto;
 	
 }
-article.contenedor-autos ul li figure img
+.contenedor-autos ul li figure img
 {
 	max-width: 250px;
 	width: 100%;
@@ -273,24 +337,40 @@ article.contenedor-autos ul li figure img
 
 
 
-
-#contenido-item .contenedor2 ul
+.contenedor2
 {
-	list-style-type: none;
+	
+
+	width: 90%;
+	margin:0 auto;
+	box-sizing:border-box;
+	background: white;
 }
 
-#contenido-item .contenedor2 ul li figure img
+.contenedor2 ul li 
 {
-	max-width: 100px;
+	list-style: none;
+	
+}
+
+.contenedor2 ul li figure
+{
+	border:none;
+	max-width: 300px;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	
+}
+
+.contenedor2 ul li figure:hover
+{
+	background: #FBFBE3;
+}
+.contenedor2 ul li figure img
+{
+	max-width: 250px;
 	width: 100%;
 }
-
-
-
-
-
-
-
 
 .iblock
 {
@@ -298,10 +378,7 @@ article.contenedor-autos ul li figure img
 }
 
 
-.fleft
-{
-	float: left;
-}
+
 .fright
 {
 	float: right;
@@ -312,4 +389,14 @@ article.contenedor-autos ul li figure img
 	max-width: 150px;
 	width: 100%;
 
+}
+
+.text-container
+{
+	margin:0.5em;
+}
+
+.textleft
+{
+	text-align: left;
 }

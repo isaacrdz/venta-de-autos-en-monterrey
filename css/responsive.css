@@ -29,10 +29,51 @@ nav ul li
 section#contenido-item
 {
 	width: 68%;
-	background: red;
+	background: none;
+	display: inline-block;
+	border:none ;
+}
+
+section#contenido-item .contenedor2 ul li 
+{
+	
 	display: inline-block;
 }
 
+
+section#contenido-item .contenedor2 ul li figure
+{
+	border: 1px solid lightgray;
+
+	width: 150px;
+	height: auto;
+	margin: 0.5em;
+}
+
+section#contenido-item .contenedor2 ul li figure img
+{
+	max-width: 150px;
+	width: 100%;
+	
+}
+
+
+section#contenido-item section article figure img.auto-img
+{
+	max-width: 400px;
+	width: 100%;
+}
+
+section#contenido-item section article p
+{
+	text-align: left;
+}
+
+
+section#contenido-item section article p
+{
+	text-align: left;
+}
 
 aside
 {
@@ -42,24 +83,57 @@ aside
 
 }
 
-
-article.contenedor-autos ul li figure  
+aside #datos-auto  ul
 {
-	max-width: 150px;
+
+}
+
+aside #datos-auto  ul li
+{
+	list-style: none;
+	border:1px solid #cccccc;
+	font-size: 25px;
+	padding:0.5em 0;
+	box-sizing:border-box;
+	background: #F1F1F1;
+}
+
+section#hotcars #hotcars-item figure img
+{
+	max-width: 180px;
 	width: 100%;
+	
+}
+
+#hotcars article article
+{
+	border: none;
+	display: inline-block;
+	margin:0.5em 0 0 0;
+	max-width: 250px;
+	text-align: left;
+	vertical-align: top;
+	width: 100%;
+
+}
+
+
+.contenedor-autos ul li figure
+{
+	border:none;
+	width: 150px;	
+	margin: 0.5em auto;
+	padding: 0.5em;
+		border: 1px solid #cccccc;
+
 	
 }
 
 article.contenedor-autos ul li figure img 
 {
-	max-width: 300px;
+	max-width: 150px;
 	width: 100%;
 	display: inline-block;
-}
-
-article.contenedor-autos 
-{
-	border: 2px solid black;
 }
 
 article.contenedor-autos ul li 
@@ -68,31 +142,28 @@ article.contenedor-autos ul li
 	display: inline-block;
 	margin: 1em;
 }
-#contenido-item .contenedor2 ul
+
+.fright
 {
-	display: inline-block;
+	float: right;
 }
 
-#contenido-item .contenedor2 ul li
+.textleft
 {
-	display: inline-block;
+	text-align: left;
+}
+.fleft
+{
+	float: left;
 }
 
-#contenido-item .contenedor2 ul li figure img
-{
-	max-width: 100px;
-	width: 100%;
-	border: 1px solid yellow;
+.width-size
+
+{	
+	width: 90%;
+	margin: 0 auto;
 }
 
-
-
-
-
-.iblock
-{
-	display: inline-block;
-}
 
 
 }
