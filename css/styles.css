@@ -48,7 +48,7 @@ h1
 	margin: 0;
 	font-size: 26px ;
 	color: white;
-	border:1px solid yellow;
+
 	font-family: 'PT Sans', sans-serif;
 	padding: 1em;
 	box-sizing:border-box;
@@ -81,9 +81,9 @@ button[type="submit"]
 	border-radius: 5px;
 	border-bottom: 2px solid #F19700;
 }
-nav
+header nav
 {
-	background: #FFFFFF;	
+	border: none;	
 	padding: 0;
 	border: none;
 	text-align: center;
@@ -91,15 +91,30 @@ nav
 
 }
 
-nav ul 
+header nav ul 
 {
 	padding: 0;
 	margin: 0;
 
 }
- nav ul li
+ header nav ul li
  {
- 
+ 	
+ 	padding: 1em 1em;
+ 	box-sizing:border-box;
+ 	background: #F8BD0C;
+ 	border-bottom: 1px solid #ff6500;
+
+
+ }
+  header nav ul li a
+ {
+ 	
+ 	color:white;
+ 	font-size: 25px;
+
+
+
  }
 
  

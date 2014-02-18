@@ -5,26 +5,41 @@ body
 {
 	background: #E5E5E5;
 }
-nav
+
+
+
+
+header nav
 {
-	background: #FFFFFF;	
+	border: 1px solid lightgray;	
 	padding: 0;
-	border: 1px solid green;
+	border: none;
+	text-align: center;
 
 
 }
 
-nav ul 
+header nav ul 
 {
 	padding: 0;
 	margin: 0;
 
 }
-nav ul li
-{
-	display: inline-block;
+ header nav ul li
+{ 	
+ 	padding: 1em 1em;
+ 	box-sizing:border-box;
+ 	background: #F8BD0C;
+ 	border-bottom: 1px solid #ff6500;
+ 	display: inline-block;
 }
 
+ header nav ul li a
+{
+ 	
+ 	color:white;
+ 	font-size: 25px;
+}
 
 section#contenido-item
 {
@@ -100,7 +115,7 @@ aside #datos-auto  ul li
 
 section#hotcars #hotcars-item figure img
 {
-	max-width: 180px;
+	max-width: 150px;
 	width: 100%;
 	
 }
