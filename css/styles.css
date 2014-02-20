@@ -44,11 +44,10 @@ section#slider-nivo
 
 h1
 {
-	
+	background: #2691BD;
 	margin: 0;
 	font-size: 26px ;
 	color: white;
-
 	font-family: 'PT Sans', sans-serif;
 	padding: 1em;
 	box-sizing:border-box;
@@ -87,6 +86,7 @@ header nav
 	padding: 0;
 	border: none;
 	text-align: center;
+	background: white;
 
 
 }
@@ -100,17 +100,16 @@ header nav ul
  header nav ul li
  {
  	
- 	padding: 1em 1em;
- 	box-sizing:border-box;
- 	background: #F8BD0C;
- 	border-bottom: 1px solid #ff6500;
+ 	padding: 0;
+ 	box-sizing:border-box; 	 	
+ 	padding: 1em 0;
 
 
  }
   header nav ul li a
  {
  	
- 	color:white;
+ 	color:#2691BD;
  	font-size: 25px;
 
 

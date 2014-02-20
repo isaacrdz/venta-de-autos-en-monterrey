@@ -27,11 +27,12 @@ header nav ul
 }
  header nav ul li
 { 	
- 	padding: 1em 1em;
- 	box-sizing:border-box;
- 	background: #F8BD0C;
- 	border-bottom: 1px solid #ff6500;
+ 	padding: 0 1em;
+ 	box-sizing:border-box; 	
+ 	
  	display: inline-block;
+ 	margin: 0 1em;
+
 }
 
  header nav ul li a
