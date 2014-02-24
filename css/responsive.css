@@ -3,7 +3,7 @@
 
 body
 {
-	background: #E5E5E5;
+	background: #F4F4F4;
 }
 
 
@@ -27,9 +27,8 @@ header nav ul
 }
  header nav ul li
 { 	
- 	padding: 0 1em;
- 	box-sizing:border-box; 	
- 	
+ 	padding: 1em 1em;
+ 	box-sizing:border-box;  	
  	display: inline-block;
  	margin: 0 1em;
 
@@ -38,7 +37,7 @@ header nav ul
  header nav ul li a
 {
  	
- 	color:white;
+ 	color:#2691BD;
  	font-size: 25px;
 }
 
