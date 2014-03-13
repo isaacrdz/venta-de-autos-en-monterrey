@@ -107,7 +107,7 @@
 		<li class="">
 
 			<figure>
-			<a href="#"><img src="img/brand-new-cars/dodge/dodge-2014/dodge-2014-modelos/charger-2014.png" alt="Dodge Charger 2014" width="150px"></a>
+			<a href="http://www.ventadeautosenmonterrey.com/venta-de-dodge-charger-2014-en-monterrey.html"><img src="img/brand-new-cars/dodge/dodge-2014/dodge-2014-modelos/charger-2014.png" alt="Dodge Charger 2014" width="150px"></a>
 				<figcaption> Charger 2014</figcaption>
 			</figure>	
 		</li>
@@ -162,11 +162,13 @@
 
 	<form action="mail.php" method="post">
 		
-	<input name="nombre" type="text" placeholder="Ingresa tu nombre"/>
-	<input name="mail" type="email"placeholder="@Ingresa tu Email"/>
-	<input name="numero" type="tel" placeholder="Numero de contacto"/>
-	<textarea name="comentario" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
-<button type="submit" value="Enviar" onclick="ga('send', 'event', 'Button', 'click', 'dodgeButton', 10);"> Enviar</button>
+	<input name="nombre" type="text" placeholder="Ingresa tu nombre" required/>
+	<input name="mail" type="email"placeholder="@Ingresa tu Email" required>
+	<input name="numero" type="tel" placeholder="Numero de contacto" required>
+	<textarea name="comentario" id="" cols="30" rows="10" placeholder="Comentario" required></textarea>
+<button type="submit" onclick="ga('send', 'event', 'chargerButton', 'click', 'formButton', 10);"> Enviar</button>
+
+	</form>
 
 	</form>
 </article>

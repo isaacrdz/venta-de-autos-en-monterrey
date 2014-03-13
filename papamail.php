@@ -21,7 +21,7 @@ $mail  = "ventas@ventadeautosenmonterrey.com";
 
 
 
-$asunto ='Información formulario '; // max 30 caracteres Ok 
+$asunto ='Gracias por enviar su información '; // max 30 caracteres Ok 
 
 
 // cuerpo del mail

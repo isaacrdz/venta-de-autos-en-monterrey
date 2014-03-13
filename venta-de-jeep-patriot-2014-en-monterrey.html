@@ -108,13 +108,13 @@ La versión Limited incorpora sistema de navegación integrado al funcional sist
 <h2 class="darkbg">Solicita información</h2>
 	
 
-	<form action="">
+	<form action="mail.php" method="post">
 		
-	<input type="text" placeholder="Ingresa tu nombre"/>
-	<input type="email"placeholder="@Ingresa tu Email">
-	<input type="tel" placeholder="Numero de contacto">
-	<textarea name="" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
-<button type="submit"onclick="ga('send', 'event', 'Button', 'click', 'patriotButton', 10);"> Enviar</button>
+	<input name="nombre" type="text" placeholder="Ingresa tu nombre" required/>
+	<input name="mail" type="email"placeholder="@Ingresa tu Email" required>
+	<input name="numero" type="tel" placeholder="Numero de contacto" required>
+	<textarea name="comentario" id="" cols="30" rows="10" placeholder="Comentario" required></textarea>
+<button type="submit" onclick="ga('send', 'event', 'patriotButton', 'click', 'formButton', 10);"> Enviar</button>
 
 	</form>
 </article>

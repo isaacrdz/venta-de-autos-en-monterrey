@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^ventadeautosenmonterrey.com$
+RewriteRule (.*) http://ventadeautosenmonterrey.com/$1 [R=301,L]
