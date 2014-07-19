@@ -1,3 +1,112 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?sjuqqa');
+	src:url('../fonts/icomoon.eot?#iefixsjuqqa') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?sjuqqa') format('woff'),
+		url('../fonts/icomoon.ttf?sjuqqa') format('truetype'),
+		url('../fonts/icomoon.svg?sjuqqa#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e600";
+}
+.icon-pencil:before {
+	content: "\e601";
+}
+.icon-camera:before {
+	content: "\e602";
+}
+.icon-play:before {
+	content: "\e603";
+}
+.icon-bullhorn:before {
+	content: "\e604";
+}
+.icon-phone:before {
+	content: "\e605";
+}
+.icon-location:before {
+	content: "\e606";
+}
+.icon-mobile:before {
+	content: "\e607";
+}
+.icon-drawer:before {
+	content: "\e608";
+}
+.icon-bubbles:before {
+	content: "\e609";
+}
+.icon-search:before {
+	content: "\e60a";
+}
+.icon-cog:before {
+	content: "\e60b";
+}
+.icon-fire:before {
+	content: "\e60c";
+}
+.icon-switch:before {
+	content: "\e60d";
+}
+.icon-menu:before {
+	content: "\e60e";
+}
+.icon-cloud-download:before {
+	content: "\e60f";
+}
+.icon-star:before {
+	content: "\e610";
+}
+.icon-arrow-up-left:before {
+	content: "\e611";
+}
+.icon-arrow-up:before {
+	content: "\e612";
+}
+.icon-arrow-up-right:before {
+	content: "\e613";
+}
+.icon-arrow-right:before {
+	content: "\e614";
+}
+.icon-arrow-down-right:before {
+	content: "\e615";
+}
+.icon-arrow-down:before {
+	content: "\e616";
+}
+.icon-arrow-down-left:before {
+	content: "\e617";
+}
+.icon-arrow-left:before {
+	content: "\e618";
+}
+.icon-facebook:before {
+	content: "\e619";
+}
+.icon-twitter:before {
+	content: "\e61a";
+}
+
+
+
 *
 {
 	border:0;
@@ -23,9 +132,11 @@ header
 	text-align: left;
 	color: white;
 	width: 90%;
-	padding: 0;
+	padding: 1em 0;
 	box-sizing:border-box;
 	border:1px solid lightgray;
+	position: relative;
+
 }
 
 section#slider-nivo
@@ -44,14 +155,10 @@ section#slider-nivo
 
 h1
 {
-	background: #2691BD;
-	margin: 0;
-	font-size: 26px ;
-	color: white;
-	font-family: 'PT Sans', sans-serif;
-	padding: 1em;
-	box-sizing:border-box;
+	display: none;
 }
+
+
 input,textarea
 {
 	display: block;
@@ -82,13 +189,26 @@ button[type="submit"]
 }
 header nav
 {
-	border: none;	
-	padding: 0;
-	border: none;
+	display: none;
+	z-index: 9 ;
+	left: 20px;
+	background: #303030 ;
+	padding: 1em 2em  ;
 	text-align: center;
-	background: white;
+	position: absolute;
+	
 
 
+}
+
+.relative
+{
+	position: relative;
+}
+
+.absolute
+{
+	position: absolute;
 }
 
 header nav ul 
@@ -103,14 +223,15 @@ header nav ul
  	padding: 0;
  	box-sizing:border-box; 	 	
  	padding: 1em 0;
+ 	list-style: none
 
 
  }
   header nav ul li a
  {
  	
- 	color:#2691BD;
- 	font-size: 25px;
+ 	color:white;
+ 	font-size: 30px;
 
 
 
@@ -196,6 +317,23 @@ aside article
 	padding: 0;
 	box-sizing:border-box;
 	background: white;
+}
+
+.menu-icon
+{
+	color: white ;
+	font-size: 35px;
+	padding: .5em;
+	text-decoration: none;
+	transition:all 1s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+}
+
+.menu-icon:hover
+{
+	color:#F8BD0C;
 }
 
 #ultimos-publicados-item

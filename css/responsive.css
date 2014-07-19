@@ -11,12 +11,29 @@ body
 
 header nav
 {
+	background:  none;
 	border: 1px solid lightgray;	
-	padding: 0;
 	border: none;
+	display: inline-block;
+	float: right;
+	margin-top: .5em;
+	margin-right: 1em;
+	padding: 0;
+	position: relative;
 	text-align: center;
 
+}
 
+h1
+{
+	display: inline-block;
+	margin-left: 1em;
+}
+
+
+.menu-icon
+{
+	display: none;
 }
 
 header nav ul 
@@ -27,6 +44,7 @@ header nav ul
 }
  header nav ul li
 { 	
+	color: white;
  	padding: 1em 1em;
  	box-sizing:border-box;  	
  	display: inline-block;
@@ -37,7 +55,7 @@ header nav ul
  header nav ul li a
 {
  	
- 	color:#2691BD;
+ 	color:white;
  	font-size: 25px;
 }
 
