@@ -148,6 +148,11 @@ section#slider-nivo
 	width: 90%;
 }
 
+.logo
+{
+	display:none;
+}
+
 .fleft
 {
 	float: left;
@@ -256,6 +261,7 @@ footer
 	padding: 1em;
 	box-sizing:border-box;
 	text-align: center;
+	margin-top: 1em;
 
 
 }
@@ -335,30 +341,46 @@ aside article
 {
 	color:#F8BD0C;
 }
-
-#ultimos-publicados-item
+.conocenos
+{
+	background: #303030;
+	box-sizing:border-box;
+	color: white;
+	font-size: 25px;
+	margin: 1em auto;
+	padding: 0.5em;
+	text-align: justify;
+	text-align: left;
+	width: 100%;
+}
+.justify
+{
+	text-align: justify;
+}
+.ultimos-publicados-item
 {
 	
-	width: 90%;
-	margin: 1em auto;
-	box-sizing:border-box;
 	background: #303030;
+	box-sizing:border-box;
+	box-sizing:border-box;
 	color: white;
-	padding: 0.5em;
 	font-size: 25px;
+	margin: 1em auto;
+	padding: 0.5em;
 	text-align: left;
+	width: 90%;
 
 }
 
-#hotcars
+.hotcars
 {
-	border-bottom: 1px solid lightgray;
 	background: white;
-	padding: 1em;
-	margin-bottom: 1em;
-	width: 90%;
+	border-bottom: 1px solid lightgray;
 	box-sizing:border-box;
+	margin-bottom: 1em;
 	margin:1em auto 1em auto;
+	padding: 1em;
+	width: 90%;
 
 	
 }
@@ -372,18 +394,18 @@ aside article
 	text-align: left;
 }
 
-#hotcars:hover
+.hotcars:hover
 {
 	background: #FBFBE3;
 	color: red;
 }
 
-#hotcars article 
+.hotcars article 
 {
 	padding: 0;
 	margin: 0;
 }
-#hotcars article figure 
+.hotcars article figure 
 {
 	display: inline-block;
 	float: left;
@@ -394,7 +416,7 @@ aside article
 
 }
 
-#hotcars figure img
+.hotcars figure img
 {
 	max-width: 150px;
 	width: 100%;
@@ -405,14 +427,14 @@ aside article
 
 
 
-#hotcars article article h2
+.hotcars article article h2
 {
 	padding: 0;
 	margin: 0;
 	color: #155581;
 }
 
-#hotcars #hotcars-item article p
+.hotcars .hotcars-item article p
 {
 	
 	display: block;
@@ -445,14 +467,14 @@ aside #datos-auto  ul li
 	background: #F1F1F1;
 }
 
-#hotcars article article p
+.hotcars article article p
 {
 	padding: 0;
 	margin: 0;
 	color: #53565B;
 }
 
-#hotcars article article span
+.hotcars article article span
 {
 	padding: 0;
 	margin: 0;
@@ -494,7 +516,7 @@ aside #datos-auto  ul li
 	
 
 	width: 90%;
-	margin:0 auto;
+	margin:0.5em auto;
 	box-sizing:border-box;
 	background: white;
 }
