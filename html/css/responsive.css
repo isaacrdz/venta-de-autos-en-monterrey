@@ -1,0 +1,228 @@
+@media screen and (min-width:1000px){
+
+body
+{
+	background: #F4F4F4;
+}
+
+
+.logo
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 1em 1em 0 3em;
+	
+
+}
+
+h1
+{
+	display: inline-block;
+	margin-left: 1em;
+
+}
+
+
+
+.menu-icon
+{
+	display: none;
+}
+
+header 
+{
+	position: relative;
+}
+
+header nav
+{
+	
+	background:none ;
+	display: inline-block;
+	margin-left: 2em;
+	margin-right: 1em;
+	margin-top: 1em;
+	padding: 0;
+	position: relative;
+	text-align: right;
+	width: 70% ;
+	
+
+}
+
+
+header nav ul 
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+
+	
+
+}
+
+
+ header nav ul li
+{ 	
+	color: white;
+ 	box-sizing:border-box;  	
+ 	display: inline-block;
+ 	margin: 0 1em;
+ 	padding: 1em 1em;
+
+}
+
+ header nav ul li a
+{
+ 	
+ 	color:white;
+ 	font-size: 24px;
+}
+
+section#contenido-item
+{
+	width: 68%;
+	background: none;
+	display: inline-block;
+	border:none ;
+}
+
+section#contenido-item .contenedor2 ul li 
+{
+	
+	display: inline-block;
+}
+
+
+section#contenido-item .contenedor2 ul li figure
+{
+	border: 1px solid lightgray;
+
+	width: 150px;
+	height: auto;
+	margin: 0.5em;
+}
+
+section#contenido-item .contenedor2 ul li figure img
+{
+	max-width: 150px;
+	width: 100%;
+	
+}
+
+
+section#contenido-item section article figure img.auto-img
+{
+	max-width: 400px;
+	width: 100%;
+}
+
+section#contenido-item section article p
+{
+	text-align: left;
+}
+
+
+section#contenido-item section article p
+{
+	text-align: left;
+}
+
+aside
+{
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+aside #datos-auto  ul
+{
+
+}
+
+aside #datos-auto  ul li
+{
+	list-style: none;
+	border:1px solid #cccccc;
+	font-size: 25px;
+	padding:0.5em 0;
+	box-sizing:border-box;
+	background: #F1F1F1;
+}
+
+section.hotcars .hotcars-item figure img
+{
+	max-width: 150px;
+	width: 100%;
+	
+}
+
+.hotcars article article
+{
+	border: none;
+	display: inline-block;
+	margin:0.5em 0 0 0;
+	max-width: 250px;
+	text-align: left;
+	vertical-align: top;
+	width: 100%;
+
+}
+
+
+.contenedor-autos ul li figure
+{
+	border:none;
+	width: 150px;	
+	margin: 0.5em auto;
+	padding: 0.5em;
+		border: 1px solid #cccccc;
+
+	
+}
+
+article.contenedor-autos ul li figure img 
+{
+	max-width: 150px;
+	width: 100%;
+	display: inline-block;
+}
+
+article.contenedor-autos ul li 
+{
+	
+	display: inline-block;
+	margin: 1em;
+}
+
+.fright
+{
+	float: right;
+}
+
+.textleft
+{
+	text-align: left;
+}
+.fleft
+{
+	float: left;
+}
+
+.width-size
+
+{	
+	width: 90%;
+	margin: 0 auto;
+}
+
+.list-format
+{
+	
+	text-align: left;
+}
+
+
+}
