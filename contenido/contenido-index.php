@@ -34,17 +34,17 @@
 	<ul>
 		<li class="">
 		<figure>
-			<a href="http://www.ventadeautosenmonterrey.com/venta-de-chevrolet-en-monterrey.html"><img src="img/chevrolet-logo.png" alt="Autos Chevrolet 2014"></a>
+			<a href="http://www.ventadeautosenmonterrey.com/venta-de-chevrolet-en-monterrey.php"><img src="img/chevrolet-logo.png" alt="Autos Chevrolet 2014"></a>
 			<figcaption>Chevrolet</figcaption>
 		</figure>	
 		</li>
 	<li class="">
 		<figure>
-			<a href="http://www.ventadeautosenmonterrey.com/venta-de-gmc-en-monterrey.html"><img src="img/gmc-logo.png" alt="Autos y Suvs GMC 2014"></a>
+			<a href="http://www.ventadeautosenmonterrey.com/venta-de-gmc-en-monterrey.php"><img src="img/gmc-logo.png" alt="Autos y Suvs GMC 2014"></a>
 			<figcaption>GMC</figcaption>
 		</figure>	<li class="">
 		<figure>
-			<a href="http://www.ventadeautosenmonterrey.com/venta-de-jeep-2014-en-monterrey.html"><img src="img/jeep-logo.png" alt="Suvs Jeep 2014"></a>
+			<a href="http://www.ventadeautosenmonterrey.com/venta-de-jeep-en-monterrey.php"><img src="img/jeep-logo.png" alt="Suvs Jeep 2014"></a>
 			<figcaption>Jeep</figcaption>
 		</figure>	
 	</ul>
@@ -63,7 +63,7 @@
 			<figcaption>hyundai</figcaption>
 		</figure>	<li class="">
 		<figure>
-			<a href="http://www.ventadeautosenmonterrey.com/venta-de-dodge-en-monterrey.html"><img src="img/dodge-logo.png" alt="Autos Dodge 2014"></a>
+			<a href="http://www.ventadeautosenmonterrey.com/venta-de-dodge-en-monterrey.php"><img src="img/dodge-logo.png" alt="Autos Dodge 2014"></a>
 			<figcaption>Dodge</figcaption>
 		</figure>	
 	</ul>
