@@ -1,4 +1,36 @@
 
+<article id="datos-auto">
+
+<?
+
+
+
+
+$sql = mysql_query("SELECT * FROM nuevos WHERE id='$id'");
+$numero= mysql_num_rows($sql);
+if ($numero==0){
+    echo "No se ha encontrado el post";
+}else{
+
+
+$row = mysql_fetch_array($sql);
+
+
+
+?>
+	
+<h2 class="darkbg">Información General</h2>
+<ul>
+	<li><strong>Desde:</strong><span><? echo $row['precio']; ?></span></li>
+	
+</ul>
+
+<?
+}
+?>
+</article>
+
+
 <article>
 <h2 class="darkbg">Solicita información</h2>
 	

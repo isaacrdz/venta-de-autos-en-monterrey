@@ -1,3 +1,5 @@
+<?php require_once 'comunes/config.php' ?>
+
 <header class="">
 	<a href="#" id="mini-menu" class="icon-menu menu-icon"></a>
 	<figure class="logo">

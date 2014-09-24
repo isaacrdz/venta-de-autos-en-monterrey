@@ -28,44 +28,30 @@
 
 <article class="contenedor-autos">
 
-	<ul>
+<ul>
+<?
+$sql = mysql_query("SELECT * FROM nuevos  ");
+while ($row = mysql_fetch_array($sql)){
+
+
+?>
+
 		<li class="">
-		<figure>
-			<a href="#"><img src="img/brand-new-cars/jeep-2014/jeeps-models/wrangler-unlimited-2014.png" alt="wrangler unlimited 2014" width="100px"></a>
-			<figcaption>Wrangler Unlimited 2014</figcaption>
+		<figure >
+			<a href="#"><img src="<? echo $row['logo']; ?>" alt="wrangler unlimited 2014" width="100px"></a>
+			<figcaption><? echo $row['marca']." ".$row['modelo']." ".$row['anio']; ?></figcaption>
+			<a href="<? echo $row['slug'] ?>">ver modelo</a>
 		</figure>	
 		</li>
-	<li class="">
-		<figure>
-			<a href="http://www.ventadeautosenmonterrey.com/venta-de-jeep-patriot-2014-en-monterrey.html"><img src="img/brand-new-cars/jeep-2014/jeeps-models/jeep-patriot-2014.png" alt="GMC"></a>
-			<figcaption> Patriot 2014</figcaption>
-		</figure>	<li class="">
-		<figure>
-			<a href="#"><img src="img/brand-new-cars/jeep-2014/jeeps-models/grand-cherokee-2014.png" alt="Jeep"></a>
-			<figcaption>Grand Cherokee</figcaption>
-		</figure>	
-	</ul>
-</article>
-<article class="contenedor-autos">
-	<ul>
-		<li class="">
-		<figure>
-			<a href="#"><img src="img/brand-new-cars/jeep-2014/jeeps-models/grand-cherokee-2014-blindada.png"></a>
-			<figcaption>Gran Cherokee Blindada</figcaption>
-		</figure>	
-		</li>
-	<li class="">
-		<figure>
-			<a href="#"><img src="img/brand-new-cars/jeep-2014/jeeps-models/compass-2014.png"></a>
-			<figcaption>Compass</figcaption>
-		</figure>	<li class="">
-		<figure>
-			<a href="#"><img src="img/brand-new-cars/jeep-2014/jeeps-models/cherokee-2014.png"></a>
-			<figcaption>Dodge</figcaption>
-		</figure>	
+	
+<?
+}
+?>
+
 	</ul>
 </article>
 
-</article>
+
+
 
 </section>

@@ -24,30 +24,40 @@
 	
 
 <article>
+<?
+$id=quitar($_GET['n']);
+$sql = mysql_query("SELECT * FROM nuevos WHERE slug='$id'");
+$numero= mysql_num_rows($sql);
+if ($numero==0){
+    echo "No se ha encontrado el post";
+}else{
 
-<h2 class="textleft width-size" >Jeep Patriot 2014</h2>
+
+$row = mysql_fetch_array($sql);
+
+
+
+?>
+
+<h2 class="textleft width-size" ><? echo $row['marca']." ".$row['modelo']." ".$row['anio']; ?></h2>
 <figure class="fleft">
-	<img class="auto-img" src="img/brand-new-cars/jeep-2014/patriot-2014/jeep-patriot-2014-1.jpg" alt="">
+	<img class="auto-img" src="<? echo $row['imagen2']; ?>" alt="">
 </figure>
-<p>El Jeep® Patriot 2014, es un vehículo perfecto para las accidentadas calles de nuestras ciudades y también porque cuenta con muchos atributos de lujo, seguridad y conveniencia. También nos complace anunciarles que hemos llevado a cabo acciones para mejorar la imagen y equipamiento de las mismas.
-</p>
+<p><? echo $row['contenido1'];?></p>
 
-<p>Todas las versiones ahora cuentan con transmisión automática de 6 velocidades y conservamos en la versión Sport la transmisión manual de 5 velocidades.
-</p>
+<p><? echo $row['contenido2'];?></p>
+
 
 <figure class="fleft">
-	<img class="auto-img" src="img/brand-new-cars/jeep-2014/patriot-2014/jeep-patriot-2014-2.jpg" alt="">
+	<img class="auto-img" src="<? echo $row['imagen3']; ?>" alt="">
 </figure>
-<p>
-En la versión Sport hemos agregado vidrios y seguros eléctricos, espejos eléctricos con desempañante y radio con caja de 6 CDs.
 
-</p>
-<p>
-	
- La versión Latitude ahora cuenta con el sistema MyGIG® (CD/MP3/DVD/Disco duro de 28 GB) y como incorporación tardía contará con volante forrado con piel y controles de audio.
-La versión Limited incorpora sistema de navegación integrado al funcional sistema multimedia MyGIG®				
-</p>
+<p><? echo $row['contenido3'];?></p>
 
+
+<?
+}
+?>
 
 </article>
 
