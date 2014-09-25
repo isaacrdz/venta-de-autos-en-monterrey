@@ -9,7 +9,7 @@
 $sql = mysql_query("SELECT * FROM nuevos WHERE id='$id'");
 $numero= mysql_num_rows($sql);
 if ($numero==0){
-    echo "No se ha encontrado el post";
+    
 }else{
 
 

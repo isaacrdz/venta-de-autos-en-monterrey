@@ -44,7 +44,7 @@
 			<figcaption>GMC</figcaption>
 		</figure>	<li class="">
 		<figure>
-			<a href="http://www.ventadeautosenmonterrey.com/venta-de-jeep-en-monterrey.php"><img src="img/jeep-logo.png" alt="Suvs Jeep 2014"></a>
+			<a href="venta-de-jeep-en-monterrey.php"><img src="img/jeep-logo.png" alt="Suvs Jeep 2014"></a>
 			<figcaption>Jeep</figcaption>
 		</figure>	
 	</ul>

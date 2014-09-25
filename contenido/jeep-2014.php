@@ -30,7 +30,7 @@
 
 <ul>
 <?
-$sql = mysql_query("SELECT * FROM nuevos  ");
+$sql = mysql_query("SELECT * FROM nuevos WHERE marca = 'Jeep'  ");
 while ($row = mysql_fetch_array($sql)){
 
 

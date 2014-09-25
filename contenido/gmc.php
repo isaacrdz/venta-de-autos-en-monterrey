@@ -9,12 +9,12 @@
 	
 	<div class=" theme-default">
             <div id="slider" class="nivoSlider">
-               <a href="#"><img src="img/brand-new-cars/GMC/Models/banners/terrain-2014-banner.png" data-thumb="img/brand-new-cars/GMC/Models/banners/terrain-2014-banner.png" alt="Terrain 2014 Promocion" /></a>
-
-                <a href="#"><img src="img/brand-new-cars/GMC/Models/banners/acadia-2014-banner.png" data-thumb="img/brand-new-cars/GMC/Models/banners/acadia-2014-banner.png" alt="Acadia 2014 Promocion"  /></a>           
-                
+                <img src="img/corvette.jpg" data-thumb="img/corvette.jpg" alt="" />
+                <a href="#"><img src="img/corvette2.jpg" data-thumb="img/corvette2.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="img/corvette.jpg" data-thumb="img/corvette.jpg" alt="" data-transition="slideInLeft" />
+                <img src="img/corvette.jpg" data-thumb="img/corvette.jpg" alt="" title="#htmlcaption" />
             </div>
-       
+            
         </div>
 </article>
 
@@ -28,51 +28,30 @@
 
 <article class="contenedor-autos">
 
-	<ul>
-		<li class="">
+<ul>
+<?
+$sql = mysql_query("SELECT * FROM nuevos WHERE marca = 'GMC'  ");
+while ($row = mysql_fetch_array($sql)){
 
-			<figure>
-				<a href="#"><img src="img/brand-new-cars/GMC/Models/yukon-2014.png" alt="Yukon 2014" width="150px"></a>
-				<figcaption> Yukon  2014</figcaption>
-			</figure>	
+
+?>
+
+		<li class="">
+		<figure >
+			<a href="#"><img src="<? echo $row['logo']; ?>" alt="wrangler unlimited 2014" width="100px"></a>
+			<figcaption><? echo $row['marca']." ".$row['modelo']." ".$row['anio']; ?></figcaption>
+			<a href="<? echo $row['slug'] ?>">ver modelo</a>
+		</figure>	
 		</li>
-
-
-		<li class="">
-
-			<figure>
-				<a href="http://www.ventadeautosenmonterrey.com/venta-de-gmc-terrain-2014-en-monterrey.html"><img src="img/brand-new-cars/GMC/Models/terrain-2014.png" alt="Terrain 2014" width="150px"></a>
-				<figcaption> Terrain 2014</figcaption>
-			</figure>	
-		</li>
-
-		<li class="">
-
-			<figure>
-				<a href="#"><img src="img/brand-new-cars/GMC/Models/sierra-regular-2014.png" alt="Sierra 2014" width="150px"></a>
-				<figcaption> Sierra 2014</figcaption>
-			</figure>	
-		</li>
-
-	</ul>
-</article>
-<article class="contenedor-autos">
-
-	<ul>
-		<li class="">
-
-			<figure>
-				<a href="http://www.ventadeautosenmonterrey.com/venta-de-gmc-acadia-2014-en-monterrey.html"><img src="img/brand-new-cars/GMC/Models/acadia-2014.png" alt="Acadia 2014" width="150px"></a>
-				<figcaption>Acadia 2014 </figcaption>
-			</figure>	
-
-		</li>	
+	
+<?
+}
+?>
 
 	</ul>
 </article>
 
 
 
-</article>
 
 </section>
