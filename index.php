@@ -25,7 +25,7 @@
 	<? include "contenido/contenido-index.php" ?>
 	<aside>
 		
-	<? include "contenido/aside.php" ?>
+	<? include "contenido/aside-alone.php" ?>
 	</aside>
 	<? include "comunes/footer.php" ?>
 

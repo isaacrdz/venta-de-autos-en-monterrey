@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+<?
+$id=quitar($_GET['n']);
+$sql = mysql_query("SELECT * FROM nuevos WHERE slug='$id'");
+$numero= mysql_num_rows($sql);
+if ($numero==0){
+    echo "No se ha encontrado el post";
+}else{
+
+
+$row = mysql_fetch_array($sql);
+
+
+
+?>
 <head>
 	<meta charset="UTF-8"/>
 	<meta name="viewport" 
@@ -26,3 +40,6 @@
 </aside>
 
 <? include "comunes/footer.php" ?>
+<?
+	 }
+?>
