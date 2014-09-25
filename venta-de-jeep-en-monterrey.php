@@ -22,7 +22,7 @@
 <? include "comunes/header.php" ?>
 <? include "contenido/jeep-2014.php" ?>
 <aside>	
-	<? include "contenido/aside.php" ?>
+	<? include "contenido/aside-alone.php" ?>
 </aside>
 
 <? include "comunes/footer.php" ?>

@@ -16,13 +16,13 @@
 
 
 <!--terminan links nivo -->
-<title>Venta de Jeep Patriot 2014 en Monterrey</title>
+<title></title>
 </head>
 
 <html>
 	<body>		
 			<? include "comunes/header.php" ?>
-			<? include "contenido/contenido-jeep-patriot-2014.php" ?>
+			<? include "contenido/contenido-nuevos-solos.php" ?>
 		
 
 

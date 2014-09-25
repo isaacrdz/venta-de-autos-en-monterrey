@@ -16,13 +16,13 @@
 
 
 <!--terminan links nivo -->
-<title>Venta de GMC 2014 en Monterrey</title>
+<title>Venta de GMC en Monterrey</title>
 
 
 <? include "comunes/header.php" ?>
 <? include "contenido/gmc.php" ?>
 <aside>	
-	<? include "contenido/aside.php" ?>
+	<? include "contenido/aside-alone.php" ?>
 </aside>
 
 <? include "comunes/footer.php" ?>

@@ -41,7 +41,7 @@ $row = mysql_fetch_array($sql);
 
 <h2 class="textleft width-size" ><? echo $row['marca']." ".$row['modelo']." ".$row['anio']; ?></h2>
 <figure class="fleft">
-	<img class="auto-img" src="<? echo $row['imagen2']; ?>" alt="">
+	<img class="auto-img" src="<? echo $row['imagen1']; ?>" alt="">
 </figure>
 <p><? echo $row['contenido1'];?></p>
 
@@ -49,10 +49,14 @@ $row = mysql_fetch_array($sql);
 
 
 <figure class="fleft">
-	<img class="auto-img" src="<? echo $row['imagen3']; ?>" alt="">
+	<img class="auto-img" src="<? echo $row['imagen2']; ?>" alt="">
 </figure>
 
 <p><? echo $row['contenido3'];?></p>
+
+
+<hr>
+
 
 
 <?

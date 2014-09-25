@@ -1,15 +1,3 @@
-
-<article id="datos-auto">    
-    <h2 class="darkbg">Información General</h2>
-    <ul>
-        <li><strong>Desde:</strong><span><? echo $row['precio']; ?></span></li>    
-    </ul>
-</article>
-
-
-
-
-
 <article>
 <h2 class="darkbg">Solicita información</h2>
 	

@@ -3,7 +3,7 @@
 <header class="">
 	<a href="#" id="mini-menu" class="icon-menu menu-icon"></a>
 	<figure class="logo">
-		<img src="img/logo.png" width="80" alt="">
+		<a href="index.php"><img src="img/logo.png" width="80" alt=""></a>
 	</figure>
 	<nav class="" >
 		<ul>

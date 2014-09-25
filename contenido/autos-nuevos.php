@@ -17,6 +17,7 @@
 		<figure>
 			<a href="http://www.ventadeautosenmonterrey.com/venta-de-chevrolet-en-monterrey.php"><img src="img/chevrolet-logo.png" alt="Autos Chevrolet 2014"></a>
 			<figcaption>Chevrolet</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	
 		</li>
 	<li class="">

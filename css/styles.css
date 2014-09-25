@@ -578,4 +578,28 @@ aside #datos-auto  ul li
 .list-format
 {
 	list-style: none;
-	
+
+}
+
+.conoce-mas
+{
+	color: white;
+	background: #F8CB43;
+	padding: .5em;
+	margin: 0;
+	box-sizing:border-box;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.conoce-mas:hover
+{
+	background: #ffc005;
+}
+
+
+.margin-bottom
+{
+	margin-bottom: 1em;
+}

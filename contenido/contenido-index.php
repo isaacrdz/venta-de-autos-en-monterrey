@@ -34,18 +34,21 @@
 	<ul>
 		<li class="">
 		<figure>
-			<a href="http://www.ventadeautosenmonterrey.com/venta-de-chevrolet-en-monterrey.php"><img src="img/chevrolet-logo.png" alt="Autos Chevrolet 2014"></a>
-			<figcaption>Chevrolet</figcaption>
+			<a href=""><img src="img/chevrolet-logo.png" alt="Autos Chevrolet 2014"></a>
+			<figcaption  class="margin-bottom">Chevrolet</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	
 		</li>
 	<li class="">
 		<figure>
-			<a href="http://www.ventadeautosenmonterrey.com/venta-de-gmc-en-monterrey.php"><img src="img/gmc-logo.png" alt="Autos y Suvs GMC 2014"></a>
-			<figcaption>GMC</figcaption>
+			<a href="venta-de-gmc-en-monterrey.php"><img src="img/gmc-logo.png" alt="Autos y Suvs GMC 2014"></a>
+			<figcaption  class="margin-bottom">GMC</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	<li class="">
 		<figure>
 			<a href="venta-de-jeep-en-monterrey.php"><img src="img/jeep-logo.png" alt="Suvs Jeep 2014"></a>
-			<figcaption>Jeep</figcaption>
+			<figcaption  class="margin-bottom">Jeep</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	
 	</ul>
 </article>
@@ -54,17 +57,20 @@
 		<li class="">
 		<figure>
 			<a href="#"><img src="img/peugeot-logo.png" alt="Autos Peugeot 2014"></a>
-			<figcaption>Peugeot</figcaption>
+			<figcaption  class="margin-bottom">Peugeot</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	
 		</li>
 	<li class="">
 		<figure>
 			<a href="#"><img src="img/hyundai-logo.png" alt="Autos Hyundai 2014"></a>
-			<figcaption>hyundai</figcaption>
+			<figcaption  class="margin-bottom">hyundai</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	<li class="">
 		<figure>
 			<a href="http://www.ventadeautosenmonterrey.com/venta-de-dodge-en-monterrey.php"><img src="img/dodge-logo.png" alt="Autos Dodge 2014"></a>
-			<figcaption>Dodge</figcaption>
+			<figcaption  class="margin-bottom">Dodge</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	
 	</ul>
 </article>
@@ -73,17 +79,20 @@
 		<li class="">
 		<figure>
 			<a href="#"><img src="img/chrysler-logo.png" alt="Autos Chrysler 2014"></a>
-			<figcaption>Chrysler</figcaption>
+			<figcaption  class="margin-bottom">Chrysler</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	
 		</li>
 	<li class="">
 		<figure>
 			<a href="#"><img src="img/cadillac-logo.png" alt="Autos y Suvs Cadillac2014"></a>
-			<figcaption>Cadillac</figcaption>
+			<figcaption  class="margin-bottom">Cadillac</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	<li class="">
 		<figure>
 			<a href="#"><img src="img/buick-logo.png" alt="Autos Buick 2014"></a>
-			<figcaption>Buick</figcaption>
+			<figcaption  class="margin-bottom">Buick</figcaption>
+			<div class="margin-bottom"><a href="" class="conoce-mas">Conoce más</a></div>
 		</figure>	
 	</ul>
 </article>
